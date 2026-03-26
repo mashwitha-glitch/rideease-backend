@@ -171,4 +171,4 @@ if __name__ == "__main__":
   ║   GET  /api/health                       ║
   ╚══════════════════════════════════════════╝
     """)
-    app.run(debug=True, port=port)
+    app.run(host="0.0.0.0", port=port)
